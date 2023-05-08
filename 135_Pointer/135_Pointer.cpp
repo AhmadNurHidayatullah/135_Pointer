@@ -16,6 +16,11 @@ int main(){
     mahasiswa& refMhs = mhs; // Pointer reference RefMhs
     refMhs.nim = 2; // Member Acces Operator
     mhs.showNim();
+
+    mahasiswa* pMhs = &mhs; //Pointer Deference pMhs
+    pMhs->nim = 3; // Arrow Operator
+    mhs.showNim();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
