@@ -8,9 +8,10 @@ class mahasiswa{
         cout << "No induk = " << nim << endl;
     }
 };
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs(1); // Object mhs
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
