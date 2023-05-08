@@ -29,10 +29,14 @@ void orang::setNama(string pNama) {
 void siswa::setid(int pid) {
     id = pid;
 }
-
 int main()
 {
-    std::cout << "Hello World!\n";
+    orang joko;
+    joko.setNama("joko kumat");
+    siswa joko_siswa;
+    joko_siswa.setid(1);
+    joko_siswa.displayAll(joko);
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
