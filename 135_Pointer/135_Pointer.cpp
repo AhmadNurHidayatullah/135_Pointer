@@ -14,6 +14,8 @@ int main(){
     mhs.showNim(); // Member Acces Operator
 
     mahasiswa& refMhs = mhs; // Pointer reference RefMhs
+    refMhs.nim = 2; // Member Acces Operator
+    mhs.showNim();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
